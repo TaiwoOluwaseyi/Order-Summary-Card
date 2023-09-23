@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+margin: auto;
+padding-top: 3rem;
+background-color: #fff;
+width: 33.49%;
+}
+
+.card-img {
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+.card-heading {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-paragraph {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.booking {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ccc;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 1.5rem 0 0.5rem 0
+}
+
+.music-icon {
+    /* padding-top: -0.9rem; */
+}
+.booking-text {
+    /* padding: 2rem; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    
+}
+
+.booking-price {
+    display: block;
+}
+
+.booking-link {
+    /* display: block; */
+}
+
+.btn {
+    text-align: center;
+}
+
+.card-btn {
+    padding: 0.9rem;
+    width: 70%;
+    margin-bottom: 1rem;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    /* box-shadow: 2rem 2rem 0.2;/ */
+}
+
+.bottom-text {
+    text-align: center;
+}
+
+.bottom-paragraph {
+    padding-bottom: 2rem;
+    color: #ccc;
+}
