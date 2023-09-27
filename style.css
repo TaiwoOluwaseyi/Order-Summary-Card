@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
    
 
 .card {
@@ -79,4 +80,10 @@ border-top-left-radius: 2rem;
 .bottom-paragraph {
     padding-bottom: 2rem;
    color: #ccc
+}
+
+@media (max-width: 700px) {
+ .card {
+    width: 75%;
+ }
 }
